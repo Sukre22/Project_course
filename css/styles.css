@@ -1,0 +1,243 @@
+body {
+	background-color: #fff;
+}
+
+.container {
+	margin: 20px auto;
+	position: relative;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #1111;
+    padding: 9px 0;
+}
+
+h2.h2-title {
+    background-color: gray;
+    color: white;
+}
+
+p {
+   font-size: 20px;
+   padding-left: 20px;
+}
+
+.fancybox-video {
+    display: none;
+}
+
+.desc-lesson {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.title-lesson {
+	font-size: 25px;
+}
+
+.desc-lesson span {
+    font-weight: bold;
+    color: #23527c;
+}
+
+.video-place {
+    margin: 30px 0;
+    position: relative;
+}
+
+.video-place img {
+    margin: 0 auto;
+    display: block;
+}
+
+.text-lesson {
+    position: absolute;
+    top: 203px;
+    left: 374px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.container>h1 {
+  	border-bottom: 1px solid #eee;	
+	margin-right: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+	font-weight: bold;
+    font-family: "proxima-nova","arial";
+    font-size: 32px;
+	padding-bottom: 33px;
+    padding-top: 50px;
+}    
+
+.robot-img {
+		position: absolute;
+    top: -41px;
+    right: 20px;
+    z-index: 100;
+    width: 300px;	
+}
+
+.lesson-list {
+    margin: 0px;
+    list-style: none;
+    background: #ecf0f1;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.lesson-list li {
+    min-height: 76px;
+    margin-bottom: 30px;
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lesson-list li a {
+    display: block;
+}
+
+.lesson-list li .item-a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.user-state-accomplished .user-state-bg {
+    background: #27ae60;
+}
+
+.lesson-list li table td.icons {
+    background-repeat: no-repeat;
+	background-position:  center center;
+    background-size: cover;
+    width: 180px;
+    vertical-align: middle;
+    min-height: 78px;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
+.lesson-list li .title {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-right: 20px;
+    display: block;
+}
+
+.lesson-list .description {
+    display: block;
+    font-size: 14px;
+    color: #222;
+    width: 90%;
+}
+
+.lesson-list .item-main-td.item-with-image {
+    padding-left: 20px;
+    height: 120px;
+}
+
+.lesson-list .item-main-td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lesson-list li table td {
+    vertical-align: middle;
+    min-height: 78px;
+}
+
+.lesson-list li.with-image .state-icon-block {
+    margin-right: 0px;
+    padding-top: 52px;
+}
+
+.lesson-list li .state-icon-block {
+    float: left;
+	color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    min-height: 78px;
+    width: 60px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 28px;
+}
+
+.lesson-list li .info {
+    position: relative;
+    margin-left: 60px;
+    padding-top: 0px;
+    height: 100%;
+    background: white;
+}
+
+.lesson-list li table {
+    min-height: 78px;
+    min-width: 400px;
+}
+
+.lesson-list li .info .vmiddle {
+    display: block;
+    padding-right: 20px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lesson-list li .info {
+    position: relative;
+    border-left: 1px solid #ecf0f1;
+    margin-left: 60px;
+    padding-top: 0px;
+    height: 100%;
+    background: white;
+}
+
+.user-state-bg {
+    background: white;
+}
+
+a {
+    color: #006caf;
+}
+
+#videoplace {
+	margin: 60px auto 20px;
+	width: 800px;
+	position: relative;
+}
+

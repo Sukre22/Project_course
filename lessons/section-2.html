@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Веб-разработчик</title>
+	<link rel="stylesheet" href="../css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	 <link rel="shortcut icon" href="../img/favicons.png" type="image/x-icon">
+	 <link rel="preconnect" href="https://fonts.gstatic.com">
+	 <link rel="preconnect" href="https://fonts.gstatic.com">
+	 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+	<div class="free">
+
+	</div>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header-logo col-12">
+					<!--<a href="../../index.html"><img src="../img/logo.png" alt="Академия верстки"></a> -->
+					<h1>Онлайн курс по Dialux EVO.</h1>									
+				</div>
+
+				<div class="header-top col-12">
+					<div class="row">
+						<div class="col-12 text-center header-title">
+							<h2 class='work'>2 Основные понятия и определения</h2>
+							<small class="text-muted">Адаптивная верстка</small>
+						</div>
+						<div class="col-3 text-left">
+							<small class="text-muted">Предыдущий урок</small><br>
+							<a href="lesson09.html">Урок №9</a>
+						</div>
+						<div class="col-6 text-center">
+							<small class="text-muted">18 из 41 уроков</small>
+							<p>Дата и время начала Пт 16 Фев 07:00</p>
+						</div>
+						<div class="col-3 text-right">
+							<small class="text-muted">Слелующий урок</small><br>
+							<a href="lesson_week2.html">2 неделя. Прямая трансляция</a>																								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				
+					<div class="col-12 video-desc">
+						<h3>Здравствуйте!</h3><br/>
+						<p class="welcome">
+							В данном уроке мы познакомимся с основными понятиями и определениями, применяемыми в светотехнике,
+							 их необходимо знать для выполнения расчетов. Узнаем, как они связаны друг с другом и в чем их измеряют.
+							</p>
+							<p class="welcome"> <b>Свет</b> - это воспринимаемое глазом (видимое) электромагнитное излучение,
+								 которое лежит в промежутке длин волн от 380 до 780 нм (1 нм = 10<sup>-9</sup> м).
+							</p>
+							<p class="welcome">
+								Различают 3 зоны <b>светового излучения: </b> <br/>
+								<ul class="welcome">
+									<li>сине-фиолетовая 400-490 нм</li> 
+									<li>зеленая 490-570 нм</li> 
+									<li>красная 580-720 нм.</li> 
+								</ul>
+							</p>
+							<p class="welcome">
+								Также существуют невидимые для глаза человека электромагнитные излучения, такие как: <br/>
+								<ul class="welcome">
+									<li><b>Ультрафиолетовое излучение</b>, занимающее спектральный диапазон между видимым и рентгеновским излучениями.</li>
+									<li><b>Инфракрасное излучение</b>, занимающее спектральную область между красным концом видимого света и микроволновым радиоизлучением.</li>									
+								</ul> 
+							</p>
+							<div class="img">
+								<img class="light" src="../img/wavelength.jpg" alt="">
+							</div><br/>
+							<p class="welcome"><b>Световой поток</b> - это мощность видимого излучения, т.е. световая энергия,
+								 излучаемая по всем направлениям за единицу времени (единица измерения люмен [лм]). Более подробно про <a href="https://youtu.be/12Zv3IPFH5Q" target="_blank">световой поток</a>.
+							 </p>
+							<p class="welcome"><b>Освещенность</b> определяет сколько светового потока падает на единицу площади(единица измерения люкс [лк]). 
+							 </p>
+							 <div class="wrapper welcome">
+								 <div class="math">1 лк =</div> 
+								 <div class="quotient">
+									 <div class="math_two">Световой поток</div>
+									 <div class="math_three">Площадь 1м<sup>2</sup></div>
+								</div>
+							</div>
+
+							<div class="img">
+								<img class="img_flux" src="../img/luminous flux.jpg" alt="">
+							</div>
+							<p class="welcome"><b>Сила света</b> показывает, сколько света заключено в угол рассеивания (телесный угол)(единица измерения кандела [кд]). Более подробно про <a href="https://youtu.be/12Zv3IPFH5Q" target="_blank">силу света</a>.</p>
+							<div class="wrapper welcome">
+								<div class="math">Сила света =</div> 
+								<div class="quotient">
+									<div class="math_two">Световой поток</div>
+									<div class="math_three" id="second">Телесный угол</div>
+							   </div>	   
+							   
+						   </div>
+						   <div class="img">
+							<img class="intensity" src="../img/light intensity.jpg" alt="">
+					   </div>
+					   <p class="welcome">
+						   <b>Яркость</b> – отношение силы света, излучаемого предметом к проекции его площади (единица измерения [кд/м<sup>2</sup>]).
+					   </p>
+
+					   <p class="welcome">
+						<b>Коэффициент отражения</b> — отношение света, отраженного телом, к упавшему на него [от 0 до 1].
+
+					   </p>
+					   <p class="welcome">
+						<b> Световая отдача</b> источника света — отношение излучаемого источником светового потока к потребляемой им мощности ( измеряется в люменах на ватт [лм/Вт]).
+						 Является показателем эффективности и экономичности источников света. Более подробно про <a href="https://youtu.be/qhRvwAHSOog" target="_blank">световую отдачу</a>.
+					   </p>
+					   <div class="img">
+						<img class="output" src="../img/light output.jpg" alt="">
+				   </div>
+
+				   <p class="welcome">
+					<b>Цветовая температура</b> – характеристика цветности освещаемого пространства (измеряется в кельвинах [к]).
+				   </p>
+				   <div class="img">
+					<img class="intensity" src="../img/color temperature.jpg" alt="">
+			   </div>
+			   <p class="welcome">
+				<b>Индекс цветопередачи (CRI)</b> - количественная мера способности источника света верно отображать цвета освещаемых объектов в сравнении с естественным источником света (шкала измерения от 0 до 100 [Ra]). Более подробно про <a href="https://youtu.be/yjqZHOZhBZ0" target="_blank">индекс цветопередачи</a>.
+			   </p>
+			   <div class="img">
+				<img class="cri" src="../img/cri.jpg" alt="">
+		   </div>
+
+		   <p class="welcome"><b>Кривая силы света (КСС)</b> – форма распределения светового потока светильника. Более подробно про <a href="https://youtu.be/RAPJIELUFHg" target="_blank">кривая силы света</a>.</p>
+		   <div class="img">
+			   <img class="kss" src="../img/KSS.png" alt="">
+	       </div>
+
+		   <p class="welcome"><b>Коэффициент пульсации</b> – частота мерцания света.</p>
+		   <p class="welcome"><b>Степень защиты IP (Ingress Protection Rating)</b> – это систематизация значений защищенности корпуса (имеется ввиду внешнее покрытие)
+			    электроприборов и электрооборудования при влиянии всевозможных отрицательных условий, например влияния влажности, открытого просачивания жидкости, загрязнений,
+				 а также воздействия разных окружающей среды. Более подробно про <a href="https://youtu.be/nQOuyHE-jbM" target="_blank">степень защиты IP</a>.
+		</p>
+		<div class="img">
+			<img class="ip" src="../img/IP.jpg" alt="">
+		</div>
+
+		<p class="welcome"><b>Обобщенный показатель дискомфорта UGR</b> (Unified Glare Rating) - мера слепящего действия, которое может производить установка внутреннего освещения.
+		</p>
+
+		<p class="welcome"><b>Коэффициент эксплуатации</b> (для искусственного освещения) MF, относительные единицы: Коэффициент, равный отношению освещенности или яркости в заданной точке,
+			 создаваемой осветительной установкой в конце установленного срока эксплуатации, к освещенности или яркости в той же точке в начале эксплуатации.
+		</p>
+					</div>
+					
+					   						   	
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h2>Задание</h2>
+							<ul class="lesson-task">
+								<li>Сверстать макет по технологии Pixel Perfect для экранов, чья ширина БОЛЬШЕ 1200px
+									<ul>
+										<li>1) Адаптировать сверстанный макет под разные экраны</li>
+										<li>2) Нельзя использовать Bootstrap</li>
+									</ul>								
+								</li>
+							</ul>	
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			
+
+      
+
+			<!---->
+			
+				<div class="menu">
+					
+					<ul class="list-unstyled">
+					   <li class="week" id="week2"><a data-tooltip="Введение" href="section-1.html">1 Введение</a></li>
+					   <li class="week"><a data-tooltip="Основные понятия и определения"  href="section-2.html">2 Основные понятия и определения</a></li>
+					   <li class="week"><a data-tooltip="Знакомство с интерфейсом программы" href="section-3.html">3 Знакомство с интерфейсом программы</a></li>
+					   <li class="week"><a data-tooltip="Моделирование освещаемого объекта" href="section-4.html">4 Моделирование освещаемого объекта</a></li>
+					   <li class="second"><a data-tooltip="Импорт чертежей различных форматов" href="section-4.1.html">4.1 Импорт чертежей различных форматов</a></li>
+					   <li class="second"><a data-tooltip="Построение зданий и его помещений"  href="section-4.2.html">4.2 Построение зданий и его помещений</a></li>
+					   <li class="second"><a data-tooltip="Добавление дверей, окон, потолков и крыши" href="section-4.3.html">4.3 Добавление дверей, окон, потолков и крыши</a></li>
+					   <li class="second"><a data-tooltip="Добавление 3D объектов" href="section-4.4.html">4.4 Добавление 3D объектов</a></li>
+					   <li class="second"><a data-tooltip="Применение материалов и цветов" href="section-4.5.html">4.5 Применение материалов и цветов</a></li>      
+					   <li class="week"><a data-tooltip="Расчет освещения" href="section-5.html">5 Расчет освещения</a></li>
+					   <li class="second"><a data-tooltip="Расстановка и настройка светильников" href="section-5.1.html">5.1 Расстановка и настройка светильников</a></li>            
+					   <li class="second"><a data-tooltip="Создание расчетных поверхностей" href="section-5.2.html">5.2 Создание расчетных поверхностей</a></li>
+					   <li class="second"><a data-tooltip="Настройка результатов расчета" href="section-5.3.html">5.3 Настройка результатов расчета</a></li>
+					   <li class="second"><a data-tooltip="Расчет аварийного освещения" href="section-5.4.html">5.4 Расчет аварийного освещения</a></li>
+					   <li class="week"><a data-tooltip="Создание отчета" href="section-6.html">6 Создание отчета</a></li>
+					   <li class="week"><a data-tooltip="Практика" href="section-7.html">7 Практика</a></li>
+					   <li class="second"><a data-tooltip="Расчет наружного освещения" href="section-7.1.html">7.1 Расчет наружного освещения</a></li>
+					   <li class="second"><a data-tooltip="Расчет периметрального освещения" href="section-7.2.html">7.2 Расчет периметрального освещения</a></li>
+					   <li class="second"><a data-tooltip="Расчет спортивной площадки с учетом UGR-показателя" href="section-7.3.html">7.3 Расчет спортивной площадки с учетом UGR-показателя</a></li>
+					   <li class="second"><a data-tooltip="Расчет спортивной площадки с учетом GR-показателя" href="section-7.4.html">7.4 Расчет спортивной площадки с учетом GR-показателя</a></li>
+					   <li class="week"><a data-tooltip="Заключение" href="section-8.html">8 Заключение</a></li>
+					</ul>
+			 </div>
+				
+				
+			 
+			<script src="../js/script.js"></script>
+		</body>
+		</html>

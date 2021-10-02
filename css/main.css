@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    font-family: "proxima-nova","arial";
+    font-size: 32px;
+}
+
+h2 {
+    font-family: "proxima-nova","arial";
+    font-size: 23px;
+	padding-left: 22px;
+	font-weight: bold;
+}
+
+a:-webkit-any-link {
+   
+    cursor: pointer;
+   
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.main-page-block h1 {
+	margin:0 50px 50px 0; 
+	font-weight: bold;
+}
+
+.main-page-block {
+    margin-left: 50px;
+    margin-right: 50px;
+	padding-bottom: 200px;
+}
+
+.main-page-block .container {
+    margin-left: 0px;
+}
+
+.main-page-block.medium-width .container {
+    width: auto;
+    max-width: 1300px;
+}
+.main-page-block .container {
+    padding-top: 20px;
+}
+
+img.logo-img {
+	margin-bottom: 20px;
+}
+
+.lesson-list {
+    margin: 0px;
+    list-style: none;
+    background: #ecf0f1;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.lesson-list li .info {
+    margin-left: 60px;
+	margin-right: 10px;
+    padding-top: 0px;
+    height: 100%;
+    background: white;
+	border-radius: 5px;
+}
+.lesson-list li table {
+    min-height: 78px;
+    min-width: 400px;
+}
+
+.lesson-list li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+	margin-bottom: 30px;
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	min-height: 76px;
+}
+
+.lesson-list li .item-a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.user-state-answered .user-state-bg {
+    background: #34495e;
+}
+.lesson-list li a {
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.lesson-list li item-a{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	
+}
+.user-state-answered .user-state-bg {
+    background: #34495e;
+}
+.lesson-list li a {
+    display: block;
+}
+.lesson-list li table td {
+    vertical-align: middle;
+    min-height: 78px;
+}
+
+.lesson-list li .state-icon-block {
+    margin-right: 0px;
+    padding-top: 30px;
+	float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    min-height: 78px;
+    width: 60px;
+    text-align: center;
+	background: #c0ccd8;
+}
+
+.lesson-list .user-state-label {
+    font-weight: bold;
+    display: block;
+}
+.user-state-answered .user-state-label {
+    color: #34495e;
+}
+
+.lesson-list li .title {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-right: 20px;
+    display: block;
+    /* max-width: 500px; */
+}
+
+.lesson-list .description {
+    display: block;
+    font-size: 14px;
+    color: #222;
+    width: 90%;
+}
+
+.fancybox-video {
+  display: none;
+}
+
+.fancybox-nav {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 40%;
+}
+
+/**** DEMO STUFF ****/
+html, body {
+  padding: 1em;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #eee;
+  display: block;
+  clear: left;
+  margin: 4em 0 2em 0;
+}
+
+.video-links {
+  list-style: none;
+  padding: 0;
+}
+.video-links li {
+  float: left;
+  margin-right: 10px;
+}
+
+.lesson-header {
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.lesson-list {padding-left: 20px;}
+
+.text-color {color: red;}
+
+.item-image {
+
+background-size: cover; 
+width: 120px; 
+}
